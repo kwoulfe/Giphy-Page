@@ -1,18 +1,83 @@
+body {
+  background: URL(
+    'https://raw.githubusercontent.com/kwoulfe/Giphy-Page/master/images/Sports.png'
+  );
+}
+
 .container {
   text-align: center;
+}
+
+.jumbotron {
+  background-color: transparent;
+  padding: 1rem;
+  margin-bottom: 0;
+}
+
+.form-group {
+  font-family: 'Bahiana', cursive;
+  font-size: 1.5rem;
+}
+
+#sport-input {
+  border-radius: 0.25rem;
+  border-style: solid;
+  border: 1px solid;
+  background-color: transparent;
+  padding-left: 0.5rem;
 }
 
 #gif-form {
   text-align: center;
 }
 
+.display-4 {
+  font-family: 'Faster One', cursive;
+  margin: 1.5rem;
+}
+
 .instructions {
   text-align: center;
 }
 
-h1 {
-  font-family: 'Faster One', cursive;
+.btn-outline-darkbtn-outline-dark {
+  color: black;
+  border-color: black;
+  margin: 1rem;
+  font-family: 'Bahiana', cursive;
+  font-size: 2rem;
+  background-color: transparent;
 }
-.display-4 {
+
+.btn-outline-darkbtn-outline-dark:hover {
+  background-color: transparent;
+  color: black;
+  border-color: black;
+}
+
+.display-3 {
+  text-align: center;
+  margin: 2rem;
+}
+
+.gifDiv {
+  float: left;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+p {
+  font-family: 'Bahiana', cursive;
+  font-size: 1.5rem;
+}
+
+img {
+  float: left;
+  margin: 1rem;
+  height: 10rem;
+  width: 15rem;
+}
+
+h1 {
   font-family: 'Faster One', cursive;
 }

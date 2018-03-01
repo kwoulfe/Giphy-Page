@@ -13,20 +13,21 @@
     <!-- Link to CSS stylesheet -->
     <link rel="stylesheet" type="text/css" href="assets/style.css">
     <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bahiana" rel="stylesheet">
 </head>
 
 <body>
     <div class=" jumbotron jumbotron-fluid ">
         <div class="container ">
-            <h1 class="display-3 ">Gettin' Giphy Wit It</h1>
+            <h1 class="display-3">Gettin' Giphy Wit It</h1>
         </div>
     </div>
     <form id="gif-form" role="form">
         <div class="form-group">
             <label for="sport-input">Pick a Sport</label>
-            <input type="text" id="sport-input">
+            <input type="text" placeholder="i.e. Bobsled" id="sport-input">
         </div>
-        <input id="addGif" type="submit" value="Add New Sport" class="btn btn-primary">
+        <input id="addGif" type="submit" value="Add New Sport" class="btn btn-outline-darkbtn-outline-dark">
     </form>
     <div class="instructions">
         <p class="display-4">Click a button to see the magic!</p>
@@ -37,6 +38,9 @@
     <div class="col-md-12">
         <div id="gifs" class="container"></div>
     </div>
+    <footer>
+        <h1 class="display-3">Sports!</h1>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

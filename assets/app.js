@@ -24,7 +24,7 @@ $(document).ready(function() {
     for (i = 0; i < sports.length; i++) {
       var gifButton = $('<button>');
       gifButton.addClass('sport');
-      gifButton.addClass('btn btn-primary');
+      gifButton.addClass('btn btn-outline-darkbtn-outline-dark');
       gifButton.attr('data-name', sports[i]);
       gifButton.text(sports[i]);
       $('#gifImages').append(gifButton);
@@ -55,7 +55,7 @@ $(document).ready(function() {
     var queryURL =
       'https://api.giphy.com/v1/gifs/search?q=' +
       sport +
-      '&api_key=5CbVvX0KByoAoV7hpo4e3niKuNW5wXjU&limit=10';
+      '&api_key=5CbVvX0KByoAoV7hpo4e3niKuNW5wXjU&limit=12';
 
     $.ajax({
       url: queryURL,
